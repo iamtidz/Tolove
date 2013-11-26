@@ -1,0 +1,239 @@
+
+.table {
+    display: table;
+}
+.tr{
+    display: table-row;
+    clear: both;
+
+}
+.th{
+    float: left;
+    padding:  5px;
+    border: 1px solid #000;
+    display: table-cell;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    width: 130px;
+}
+.td
+{
+    width: 130px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.list_member{
+    margin: 0 auto;
+    color:#37332D;
+
+}
+
+//login
+
+#content {	float: left; width: 100%;}
+
+.post { 
+    margin-right: 4%;
+}
+
+.btn-sign {
+    width:130px;
+    height:15px;
+    float: right;
+    padding:20px;
+    border-radius:5px;
+    background: -moz-linear-gradient(center top, #00c6ff, #018eb6);
+    background: -webkit-gradient(linear, left top, left bottom, from(#00c6ff), to(#018eb6));
+    background:  -o-linear-gradient(top, #00c6ff, #018eb6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#00c6ff', EndColorStr='#018eb6');
+    text-align:center;
+
+    color:#fff;
+    text-transform:uppercase;
+}
+
+.btn-sign a { color:#fff; text-shadow:0 1px 2px #161616; }
+
+#mask {
+    display: none;
+    background: #000; 
+    position: fixed; left: 0; top: 0; 
+    z-index: 10;
+    width: 100%; height: 100%;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+.login-popup{
+    width:460px;
+    height: auto;
+    display:none;
+    background:#E6E6E6;
+    padding: 10px; 	
+    border: 2px solid #37332D;
+    position: fixed;
+    color:#37332D;
+    padding-left:50px;
+    top: 50%; left: 50%;
+    z-index: 99999;
+    box-shadow: 0px 0px 20px #999;
+    -moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+    border-radius:3px 3px 3px 3px;
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+.login-popup2{
+    width:15px;
+    height: auto;
+    display:none;
+    background:#E6E6E6;
+    padding: 10px; 	
+    border: 2px solid #37332D;
+    position: fixed;
+    color:#37332D;
+    padding-left:50px;
+    top: 50%; left: 50%;
+    z-index: 99999;
+    box-shadow: 0px 0px 20px #999;
+    -moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+    border-radius:3px 3px 3px 3px;
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+
+
+img.btn_close {
+    float: right; 
+    margin: -28px -28px 0 0;
+}
+
+fieldset { 
+    border: 3px;
+    border-color: white;
+}
+
+form.signin .textbox label { 
+    display:block; 
+    padding-bottom:7px; 
+}
+
+form.signin .textbox span { 
+    display:block;
+}
+
+form.signin p, form.signin span { 
+    color:#999; 
+    font-size:11px; 
+    line-height:18px;
+} 
+
+form.signin .textbox input { 
+    background:#666666; 
+    border-bottom:1px solid #333;
+    border-left:1px solid #000;
+    border-right:1px solid #333;
+    border-top:1px solid #000;
+    color:#fff; 
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font:13px Arial, Helvetica, sans-serif;
+    padding:6px 6px 4px;
+    width:200px;
+}
+
+form.signin input:-moz-placeholder { color:#bbb; text-shadow:0 0 2px #000; }
+form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #000;  }
+
+.button { 
+    background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+    background:  -o-linear-gradient(top, #f3f3f3, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+    border-color:#000; 
+    border-width:1px;
+    border-radius:4px 4px 4px 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color:#333;
+    cursor:pointer;
+    display:inline-block;
+    padding:6px 6px 4px;
+    margin-top:10px;
+    font:12px; 
+    width:214px;
+}
+
+.button:hover { background:#ddd; }
+//
+
+.clear{
+    clear: both;
+    margin: 5px;
+}
+.login{
+    background: black;
+    height: 50px;
+    color: white;
+}
+
+.form-login{
+    padding-top: 14px;
+    padding-right: 55px;
+    float: right;
+}
+.banner{
+
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+.container{
+}
+.footer-content{
+    padding: 20px;
+
+}
+.manu{
+    padding: 20px;
+
+
+
+}
+.content{
+    padding: 20px;
+
+}
+body{
+
+    background-color:#F1F1E5;
+}
+
+.content-left{
+    border-radius: 10px;
+    background-color: #fff;
+    height: 500px;
+    margin: 10px;
+    -moz-box-shadow: -2px 1px 34px #1660e0;
+    -webkit-box-shadow: -2px 1px 34px #1660e0;
+    box-shadow: -2px 1px 34px #1660e0;
+
+}
+.content-right{
+    border-radius: 10px;
+    background-color: #0099FF;
+    height: 500px;
+    margin: 10px;
+    -moz-box-shadow: -2px 1px 34px #1660e0;
+    -webkit-box-shadow: -2px 1px 34px #1660e0;
+    box-shadow: -2px 1px 34px #1660e0;
+    height: 500px;
+}
